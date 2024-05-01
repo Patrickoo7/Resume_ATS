@@ -1,0 +1,13 @@
+prefix=E:/Projects/Resume_ATS/resume_ats/Library
+exec_prefix=E:/Projects/Resume_ATS/resume_ats/Library
+libdir=E:/Projects/Resume_ATS/resume_ats/Library/lib
+sharedlibdir=E:/Projects/Resume_ATS/resume_ats/Library/lib
+includedir=E:/Projects/Resume_ATS/resume_ats/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
